@@ -23,6 +23,7 @@ saludar('Helena')
 
 //function Sumar
 function sumar(a,b){
+    //VARIABLE LOCAL
     let resultado = a + b
     console.log(resultado)
 }
@@ -30,5 +31,23 @@ saludar('pepe')
 saludar('Helena')
 sumar(2,4)
 
+// buenas prácticas
+
+/*  
+    ----> siempre declaro las variables
+
+    ----> las var globales son caca
+ */
+
+
+//diferncia entre let y var
+ function dividir (a,b){
+     let resultado = 0
+     if (b != 0){
+/*let*/ resultado = a / b
+     }     
+     console.log(resultado)
+ }
+ dividir(4,2)
 
 

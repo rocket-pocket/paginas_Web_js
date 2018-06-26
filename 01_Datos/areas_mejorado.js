@@ -1,4 +1,4 @@
-function calcularCirculo(radio){
+function calcularCirculo(radio){//ESTA FUNCION HACE LOS CALCULOS
     return Math.PI*radio*radio
 }
 function calcularCircunf(radio){
@@ -9,7 +9,7 @@ function calcularCircunf(radio){
     let mensaje = 'el resultado es'
     console.log(mensaje, circulo)
 } */
-function mostrarCirculo(radio, circulo){
+function mostrarCirculo(radio, circulo){//ESTA FUNCIÓN SACA POR PANTALLA
     /* let mensaje = 'el área de un circulo de radio'
     mensaje = mensaje + radio
     mensaje = mensaje + 'es'
@@ -24,7 +24,7 @@ function mostrarCircunf(radio, circunf) {
     console.log(mensaje)
 }
 
-function main() {
+function main() {//LO QUE CONTIENE LA FUNCIÓN
     let radio = 3
     mostrarCirculo(radio, calcularCirculo(radio))//5
     mostrarCircunf(radio, calcularCircunf(radio))

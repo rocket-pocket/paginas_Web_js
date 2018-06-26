@@ -4,15 +4,17 @@
     - Funcion Main
 */
 
+
+//PURAS
 function sumar(a,b) {
     let resultado = a+b
     return resultado;
 }
-
+//CON EFECTOS
 function mostrar(pDato) {
     console.log(pDato)
 }
-
+//MAIN
 function main() {
     let resultado = sumar(2,5)
     mostrar(resultado)

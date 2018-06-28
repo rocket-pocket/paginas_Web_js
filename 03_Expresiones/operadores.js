@@ -46,7 +46,7 @@ console.log(Boolean(106))
 console.log(Boolean('pepe'))
 
 let a = 'juan'
-if ('pepe'){
+if ('pepi'){
     a = 'pepe'
 }
 console.log(a)

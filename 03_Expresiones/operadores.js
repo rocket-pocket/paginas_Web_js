@@ -9,6 +9,11 @@ y = x++ //POST INCREMENTO ->24
 //X-- ->operadores de DECREMENTO ( funcionan igual que los anteriores)
 y = --x
 y = x--
+//== -> iguales
+// === -> identico
+
+//&& -> and
+// || -> OR (Alt gr + 1)
 function incrementos(){
     let x = 23
 
@@ -28,8 +33,25 @@ function esPar(num){
     }
     return isPar
 }
+function espar2(num){
+    let ispar = false
+    if (num % 2 == 0){
+        ispar = true
+    }
+    return ispar
+}
+function espar2(num){
+    return (typeof num == 'number' && !num % 2) ? true : false 
+    //
+}
+
+
 console.log('22 es Par?',esPar(22))
 console.log('25 es Par?',esPar(25))
+console.log('0 es Par?',esPar(0))
+console.log('pepe es Par?',esPar('pepe'))
+console.log('esto que coño es?',espar2(30))
+
 
 
 

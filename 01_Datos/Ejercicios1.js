@@ -50,7 +50,7 @@ dividir(4,0)//'No se puede dividir por 0'
 
 //**********************************
 
-//Calcular el área de una esfera
+//Calcular el área de un círculo
 function area(a,b){
     let radio = a
     let area = Math.PI
@@ -62,3 +62,29 @@ area(4,2)//50.26...
 
 //**********************************
 
+//Función área círculo mejorado
+function calcular(radio){
+    let circulo
+    circulo = Math.PI * radio * radio
+    return circulo
+
+}
+
+function mostrar(circulo){
+    let mensaje = 'El radio del circulo es:'
+    console.log(mensaje, circulo)
+
+}
+
+function main(){
+    let radio = 7
+    let circulo = calcular(radio)
+    mostrar(circulo)
+    radio = 3
+    circulo = calcular(radio)
+    mostrar(circulo)
+    
+
+}
+
+main()

@@ -64,7 +64,7 @@ function totalizar(aDatos){
     return num
 }
 
-aDatos = [2,5,6,7,8]
+/* aDatos = [2,5,6,7,8]
 console.log(`El total es ${totalizar(aDatos)}`)
 
 function leerArray(aDatos){
@@ -78,4 +78,4 @@ function leerArray(aDatos){
 }
 
 let aNombres = ['Pepe', 'maria', 'Rosa', 'javier']
-console.log(totalizar)
+console.log(totalizar) */

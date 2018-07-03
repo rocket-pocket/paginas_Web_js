@@ -86,3 +86,52 @@ function main(){
     
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//****************************** */
+
+function calcular(radio){
+    let circulo
+    circulo = Math.PI * radio * radio
+    return circulo
+}
+
+function mostrar(circulo){
+    let mensaje = 'El resultado es:'
+    console.log(mensaje, circulo)
+}
+
+function main(){
+    let radio = 18
+    let circulo = calcular(radio)
+    mostrar(circulo)
+
+}
+main()

@@ -18,3 +18,4 @@ aDatosFull[0].apellidos = "Perez"
 aDatosFull[1].apellidos = "Lopez"
 
 console.log(aDatosFull)
+

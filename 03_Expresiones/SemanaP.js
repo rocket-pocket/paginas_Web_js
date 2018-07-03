@@ -12,7 +12,7 @@ function despertador(dia) {
         case 'L':
             hora = '7:00'
             dia = 'Lunes'
-            break;
+            break; 
         case 'M':
             hora = '7:00'
             dia = 'Martes'
@@ -32,8 +32,8 @@ function despertador(dia) {
         case 'S' :
             hora = '12:00'
             dia = 'Sábado'
-            break;
-        case 'D':
+            break; 
+        case 'D' :
             hora = '12:00'
             dia = 'Domingo'  
             break;

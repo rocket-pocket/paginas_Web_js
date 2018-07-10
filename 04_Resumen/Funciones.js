@@ -54,7 +54,7 @@ function calcularArea(figura, datos){
             resultado = datos.r * datos.r * Math.PI
             break;
         
-        default: 
+        default:  
             break;
     }
 

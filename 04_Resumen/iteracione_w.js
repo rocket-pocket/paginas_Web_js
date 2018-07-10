@@ -6,7 +6,7 @@
 
 function iterar(){
     
-    for (let i = 0; i < 3; i++) { //Aqí el i++ solo puede ir aquí
+    for (let i = 0; i < 3; i++) { //Aquí el i++ solo puede ir aquí
         console.log(`soy la vuelta ${i+1}`)// Sería igual a decir -> ${i+1}console.log(`se sumar: 2+ 2 = ${2+2} `)
         
     }

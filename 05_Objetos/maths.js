@@ -1,7 +1,7 @@
 let aDatos = {
     name: 'pepe'
 }
-/* console.log (typeof aDatos  ) */
+console.log (aDatos instanceof Object)
 
 Math.PI
 

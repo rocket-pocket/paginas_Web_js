@@ -25,7 +25,7 @@ aNombres = ['Pepe', 'Luis', 'Arancha', 'Rosa', 'Maria']
 console.log(aNombres.slice(1,4))//[ 'Luis', 'Arancha', 'Rosa' ] ->Hace rebanadas .slice(1,4)-> cogeria el array 1 hasta el 4 sin incluirlo
 console.log(aNombres)//[ 'Pepe', 'Luis', 'Arancha', 'Rosa', 'Maria' ]
 
-aClon = aNombres.slice(0, aNombres.length)//CLON es la mejor forma de hacer un clon
+aClon = aNombres.slice(0, aNombres.length)//CLON es casi la mejor forma de hacer un clon, la mejor es .map (arraysf.js)
 aClon.push('Juani')
 console.log(aClon)//[ 'Pepe', 'Luis', 'Arancha', 'Rosa', 'Maria' ]
 
@@ -39,5 +39,24 @@ console.log(aElegidos)//[ 'Luis', 'Arancha', 'Rosa', 'Maria' ]
 console.log('Original:')//Original:
 console.log(aNombres)//[ 'Pepe' ]
 
+let aNotas = [[10,7,8],[5,4,7],[6,3,2]]
+console.log(aNotas[1][1])// []-> la posicion del array [] -> la posición del dato a usar. queremos sacar el :4
+
+aNombres = ['Pepe', 'Luis', 'Arancha', 'Rosa', 'Maria']
+aNombres.push(['Roberto', 'Herminia'])
+/* aNombres.push(...['Roberto', 'Herminia']) *///[ 'Pepe', 'Luis', 'Arancha', 'Rosa', 'Maria', 'Roberto', 'Herminia' ]
+console.log(aNombres)/**
+[ 'Pepe',
+  'Luis',
+  'Arancha',
+  'Rosa',
+  'Maria',
+  [ 'Roberto', 'Herminia' ] ]  */
+
+/** - push -> añade un elemnto al final de array
+ *  - pop -> elimina el último elemento del array
+ *  - shift -> elimina el primer elemento 
+ *  - unshift -> añade un elemento al principio del array
+ */
 
 

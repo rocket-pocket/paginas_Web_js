@@ -15,7 +15,7 @@ function iterar(){
 function iterarReves(){
     
     for (let i = 3; i > 0; i--) {
-        console.log(`soy la vuelta ${i}`)        
+        console.log(`# ${i}`)        
     }
 
 }

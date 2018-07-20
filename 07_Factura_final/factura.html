@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facturas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" type='module'></script>
+</head>
+<body>
+    <div class="content-wrapper">
+        <header>
+            <h1>Factura</h1>
+        </header>
+        <div class="datos empresa">
+            <h2>Empresa</h2>
+            <dl>
+                <dt>Nombre</dt>
+                <dd id="empresa-nombre">...</dd>
+                <dt>Direccion</dt>
+                <dd id="empresa-direccion">...</dd>
+                <dt>Telefono</dt>
+                <dd id="empresa-telefono">...</dd>
+                <dt>NIF</dt>
+                <dd id="empresa-nif">...</dd>                
+            </dl>
+        </div>
+        <div class="datos cliente">
+            <h2>Cliente</h2>
+            <dl>
+                <dt>Nombre</dt>
+                <dd id="cliente-nombre">...</dd>
+                <dt>Direccion</dt>
+                <dd id="cliente-direccion">...</dd>
+                <dt>Telefono</dt>
+                <dd id="cliente-telefono">...</dd>
+                <dt>NIF</dt>
+                <dd id="cliente-nif">...</dd>                
+            </dl>
+        </div>
+        <div class="datos elementos">
+            <table id="elementos-tabla">
+                <tr>
+                    <th>Descripcion</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                </tr>
+            </table>
+        </div>
+        <div class='datos totales'>
+            <p>Importe Total <span id="importeTotal">...</span></p>
+            <p>Tipo de IVA <span id="tipoIVA">...</span></p>
+            <p>Forma de Pago <span id="formaPago">...</span></p>
+        </div>            
+    </div>
+</body>
+</html>

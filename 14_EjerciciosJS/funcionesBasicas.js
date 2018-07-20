@@ -6,13 +6,9 @@ function saludar(){
 }
 saludar()//hola mi nombre es Pepe y el nombre de mi amigo es Juan
 
-//funcion loop
-/* function loop(x){
-    let x = '#'
-    for (let i = 0; i < 8; i++) {
-        console.log(x)
-        
-    }
-}   REVISAR-------------------->
+var loop = ["#", "##", "###", "####", "#####", "######", "#######"]
 
-loop() */
+for (let i = 0; i < loop.length; i++) {
+    console.log(loop[i])
+    
+}

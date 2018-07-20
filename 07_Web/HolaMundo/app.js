@@ -15,7 +15,7 @@ function main() {
 }
 
 // window.addEventListener('load', main)
-document.addEventListener('DOMContentLoaded', main)
+document.addEventListener('DOMContentLoaded', main)/// 1-- PRIMERA LÍNEA DE TODO DOCUMENTO JS -> Esperate a  que el html carge
 
 /* window.addEventListener('load', function () {
     document.querySelector('#btnSaludar')

@@ -1,7 +1,7 @@
-import {Elemento} from './Elemento.js'
-import {Empresa} from './Empresa.js'
-import {Factura} from './Factura.js'
-import { FacturaHtml } from './FacturaHtml.js';
+import {Elemento} from './elementos.js'
+import {Empresa} from './empresa.js'
+import {Factura} from './factura.js'
+import { FacturaHtml } from './facturaHTML.js';
 
 function crearFactura1() {
     let factura1 = new Factura( 

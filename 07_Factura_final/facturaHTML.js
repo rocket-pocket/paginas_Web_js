@@ -1,4 +1,4 @@
-import { Empresa } from "./Empresa.js";
+import { Empresa } from "./empresa.js";
 
 export class FacturaHtml {
     constructor () {

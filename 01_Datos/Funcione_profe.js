@@ -1,3 +1,6 @@
+//ok
+
+
 /* Dos tipos de funciones
     - Funciones puras, sin "side effects" -> retornan datos
     - Funciones con efectos

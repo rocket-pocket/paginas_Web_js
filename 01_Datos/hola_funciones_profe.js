@@ -1,3 +1,6 @@
+//ok
+
+
 /*
   JavaScript (@Oracle) -> ECMAScript -> ES6 / ES2015
  */

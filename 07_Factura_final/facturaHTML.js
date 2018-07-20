@@ -33,28 +33,30 @@ export class FacturaHtml {
         this.importeTotal.innerHTML = facturaDatos.importeTotal
         this.tipoIVA.innerHTML = facturaDatos.tipoIVA
         this.formaPago.innerHTML = facturaDatos.formaPago
-        this.elementosTabla.innerHTML = 
-                this.crearTabla(facturaDatos.elementos)
+        this.pintarTabla(facturaDatos.elementos)
     }
 
-    crearTabla(elementosDatos) {
+    pintarTabla(elementosDatos) {
         console.log(elementosDatos)
         let tabla =
             `<tr class="tabla-title">
-                <th>Descripcion</th>
+                <th>Descripción</th>
                 <th>Precio</th>
                 <th>Cantidad</th>
             </tr>`
 
-        elementosDatos.forEach(item => {
-            tabla +=
-                `<tr>
-                <td>${item.descripcion}</td>
-                <td>${item.precio}</td>
-                <td>${item.cantidad}</td>
-            </tr>`
-        });
-        return tabla
+            elementosDatos.forEach(item => {
+                tabla +=
+                 `<tr>
+                    <td>${item.descripcion}</td>
+                    <td>${item.precio}</td>
+                    <td>${item.cantidad}</td>
+                </tr>`
+            });
+
+       
+        this.elementosTabla.innerHTML = tabla
+
     }
 
 }

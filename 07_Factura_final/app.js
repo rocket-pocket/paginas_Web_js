@@ -22,7 +22,7 @@ function crearFactura1() {
             'K-434344343') */
 
     factura1.setCliente(
-                'Libreria Tuatalug',
+                'Librería Tuatalug',
                 'c/ Tortuga',
                 '543 987 654',
                 'K-434344343')
@@ -33,7 +33,7 @@ function crearFactura1() {
     )
 
     factura1.elementos.push(
-        new Elemento('Dracula', 75, 5)
+        new Elemento('Drácula', 75, 5)
     )
 
     factura1.elementos.push(
@@ -53,7 +53,7 @@ function crearFactura2() {
 
     factura1.cliente = 
         new Empresa(
-            'Libreria El Cid',
+            'Librería El Cid',
             'c/ Valencia',
             '543 986 654',
             'K-434894343')
@@ -71,19 +71,18 @@ function crearFactura2() {
         new Elemento ('El Hobbit', 50, 24)
     )
 
-    //factura1.mostrar()    
+    factura1.mostrar()    
     //console.log(factura1)
-    factura1.calculaImporteTotal()
-    new FacturaHtml().pintarDatos(factura1)
 }
 
 
 
 
 function main() {
-    //crearFactura1()
-    crearFactura2()
+    crearFactura1()
+    //crearFactura2()
 }
 
 document.addEventListener('DOMContentLoaded', main)
+
 

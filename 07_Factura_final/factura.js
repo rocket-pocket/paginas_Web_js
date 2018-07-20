@@ -1,4 +1,4 @@
-import { Empresa } from './empresa.js'
+import { Empresa } from './Empresa.js'
 
 export class Factura {
     constructor (tipoIVA, formaPago) {
@@ -55,4 +55,3 @@ export class Factura {
         }
     }
 }
-

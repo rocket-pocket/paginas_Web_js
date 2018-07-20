@@ -5,5 +5,3 @@ export class Elemento {
         this.cantidad = cantidad
     }
 }
-
-

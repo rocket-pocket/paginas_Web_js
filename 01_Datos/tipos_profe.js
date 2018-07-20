@@ -1,3 +1,5 @@
+//ok
+
 /* Tipos de datos
 - ELEMENTALES
     - number

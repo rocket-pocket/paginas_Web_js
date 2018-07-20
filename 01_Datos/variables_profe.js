@@ -1,3 +1,6 @@
+//ok
+
+
 /* VARIABLES GLOBALES */
 
 // var global = 12

@@ -1,3 +1,5 @@
+//ok
+
 /** Declaracion */
 var saludo
 /** Inicializacion */

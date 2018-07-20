@@ -6,7 +6,7 @@ function app () {
     let domBtnBorrar = document.querySelector("#btnBorrar")
     let domOutput = document.querySelector('#output')
 
-    // Defino los manejadores de eventos de algunos nodos
+    // Defino los manejadores de eventos de algunos nodos que me interesan
     domBtnSaludar.addEventListener('click', mostrar)
     domBtnBorrar.addEventListener('click', borrar)
     

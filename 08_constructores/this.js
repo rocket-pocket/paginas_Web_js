@@ -1,4 +1,4 @@
-// THIS -> objeto global
+// THIS -> puede ser el objeto global
 
 /* console.log(this)
 
@@ -28,3 +28,6 @@ function CosaRara() {
 //cosaRara()
 
 new CosaRara()  //new -> crea un nuevo objeto 
+
+
+//THIS -> es quién yo decida //call y apply

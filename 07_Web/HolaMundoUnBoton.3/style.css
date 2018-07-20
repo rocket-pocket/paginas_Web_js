@@ -1,0 +1,8 @@
+h1 {color: brown;}
+button{
+    text-transform: uppercase;
+    background: rgb(245, 148, 148);
+    border: none;
+    width: 5rem;
+    height: 3rem;
+}

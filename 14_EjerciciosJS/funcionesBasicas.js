@@ -155,12 +155,14 @@ function oPersona(){
         ciudad: 'Madrid',
         hobbies: ['correr', 'nadar', 'programar', 'hacer el pino puente']
     }
+
     let dato1 = (`Hola, mi nombre es ${persona.nombre} ${persona.apellido}, tengo ${persona.edad} años, `)
     let dato2 =(`nací el ${persona.nacimiento} en la ciudad de ${persona.ciudad}, `)
     let dato3 =(`mis hobbies preferidos son: ${persona.hobbies[0]}, ${persona.hobbies[2]} y ${persona.hobbies[3]}`)
 
     let resultado = dato1 + dato2 + dato3
     return resultado
+    
 
 }
 

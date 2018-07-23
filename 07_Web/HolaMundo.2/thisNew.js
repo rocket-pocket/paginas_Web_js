@@ -45,6 +45,7 @@ setTimeout(pepe.saludar.bind(pepe), 1000) // Pepe */
 
 
 //THIS DEPENDE NO DE LA DEFINICION SI NO DE LA FORMA DE EJECUCIÓN
+//BIND -> TRADUCCIÓN = ENLAZAR, LAZO 
 
 
 

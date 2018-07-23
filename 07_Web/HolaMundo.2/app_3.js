@@ -1,4 +1,4 @@
-class Apps{
+class Apps{//no tiene nombre, seria un contenedor
     constructor() {
         this.amigo = 'Pepe'
         this.oBtnSaludar = document.querySelector('#btnSaludar')
@@ -26,8 +26,11 @@ class Apps{
 }
 
 
-document.addEventListener('DOMContentLoaded', 
-        () => new Apps())
+document.addEventListener('DOMContentLoaded',//DOMContentLoaded -> evento 
+        () => new Apps())//() => new Apps() - > la función manejadora de eventos, estamos instanciando una clase cuando la pagina se carge
+
+        //Para nombrar () => new Apps()) lo hariamos: () => { let app = new Apps())}
+                            
 
 // Seria lo mismo que 
 // document.addEventListener('DOMContentLoaded', 
@@ -39,3 +42,6 @@ document.addEventListener('DOMContentLoaded',
 //    new Apps()
 //}
 // document.addEventListener('DOMContentLoaded', main)
+
+
+

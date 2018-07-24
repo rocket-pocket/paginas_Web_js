@@ -1,0 +1,14 @@
+{
+  "name": "13_cookies",
+  "version": "1.0.0",
+  "description": "y",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Verdú Martínez",
+  "license": "ISC",
+  "dependencies": {
+    "js-cookie": "^2.2.0"
+  }
+}

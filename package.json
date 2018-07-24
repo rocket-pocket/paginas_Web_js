@@ -10,11 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/rocket-pocket/paginas_Web_js.git"
   },
-  "keywords": ["javascript", "ecmascript"],
+  "keywords": [
+    "javascript",
+    "ecmascript"
+  ],
   "author": "Daniel",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rocket-pocket/paginas_Web_js/issues"
   },
-  "homepage": "https://github.com/rocket-pocket/paginas_Web_js#readme"
+  "homepage": "https://github.com/rocket-pocket/paginas_Web_js#readme",
+  "dependencies": {
+    "node-moment": "^2.5.1"
+  }
 }

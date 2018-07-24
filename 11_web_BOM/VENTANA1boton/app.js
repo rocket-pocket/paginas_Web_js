@@ -1,6 +1,6 @@
 class Apps{
     constructor(){
-       this.oVentana = null
+       this.oVentana = null 
        this.btnAbrir = document.querySelector('#btnAbrir')//acceder al boton desde js -> 1º
        this.img=  null
        this.prepararImg()//jugar con imágenes

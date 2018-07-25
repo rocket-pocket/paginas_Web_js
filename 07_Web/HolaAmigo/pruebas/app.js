@@ -1,17 +1,17 @@
 function app(){
 
     let btn = document.querySelector('#btn')
-    let demo = document.getElementById('#demo')
+    let demo = onclick ="document.getElementById('#demo').style.color = 'blue'"
 
     btn.addEventListener('click', saludar)
-    demo.addEventListener('click', pintar)
+    /* demo.addEventListener('click', pintar) */
 
     function saludar(){
         btn.innerHTML= 'HOLA'
     }
-    function pintar(){
-        onclick = "demo.style.color= 'blue'"
-    }
+    /* function pintar(){
+        demo.style.color= 'blue'
+    } */
 }
 
 

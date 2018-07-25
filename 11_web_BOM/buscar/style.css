@@ -1,0 +1,30 @@
+.imagen{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    width: 100%;
+    position: relative;
+    top: 4rem;
+    
+}
+input{
+    width: 60%;
+    height: 3rem;
+    border: 1px rgb(212, 212, 212) solid;
+    box-shadow: 1px 1px 5px rgb(129, 129, 129);
+    margin-bottom: 2rem;
+}
+button{
+    padding: 0.5rem 1rem;
+}
+header{
+    text-align: center;
+}
+main{
+    text-align: center;
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

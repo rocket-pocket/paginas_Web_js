@@ -7,5 +7,19 @@ if (localStorage.numVisitas) {
 } 
 console.log('Visita número', localStorage.numVisitas)
 
-//navigator.geolocation.getCurrentPosition()
- 
+//geolocation solo tiene tres funciones
+
+/* let x = */ navigator.geolocation.getCurrentPosition((data) => {console.log(data)},
+                                                      (error) => {console.log(error)}   
+)
+//console.log(x) -> esto saldría mal por un problema de asincronía
+
+/* navigator.geolocation.getCurrentPosition((data) => {
+    console.log(data)
+})
+  */
+
+  //call back -> es una funcion que le pasamos a otra funcion para que la ejecute ella más adelante
+
+
+  //document.addEventListener('DOMContentLoaded')

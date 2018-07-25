@@ -8,6 +8,7 @@ function app(){
 
     function saludar(){
         btn.innerHTML= 'HOLA'
+        
     }
     /* function pintar(){
         demo.style.color= 'blue'

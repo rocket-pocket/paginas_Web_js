@@ -1,0 +1,21 @@
+.h1 {
+    color: brown;
+    background-color: bisque;
+}
+
+.hide {
+    display: none;
+    
+    
+}
+
+.mas {
+    border: 1px solid gainsboro;
+    background-color: gray;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-style: italic;
+    position: absolute;
+    z-index: 10;
+}

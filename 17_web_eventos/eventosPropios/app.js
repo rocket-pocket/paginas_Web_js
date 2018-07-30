@@ -4,14 +4,14 @@ function main (){
     document.querySelector('#btnPulsar')
             .addEventListener('click', pulsar)
 
-            document.querySelector('#btnPulsar')
+            document.querySelector('main')//main escribe 
                     .addEventListener('escribir', escribir)
 
    function pulsar(oE){
     console.dir(oE.target)
        oE.target.dispatchEvent(
-           new Event('escribir')
-       )
+           new Event('escribir', {'bubbles': true,
+        }))
    }
    function escribir(oE){
        console.dir(oE)

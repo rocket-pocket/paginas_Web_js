@@ -25,6 +25,15 @@ function main1(){
 
     } )
 
+    document.querySelector('footer a')
+    .addEventListener('click', navegar)
+
+    function navegar(){
+        oE.preventDefault()
+        console.log('navegar')
+        window.confirm('estas seguro')
+    }
+
     function hover(oE){
 
         //en este caso al no ser un metodo

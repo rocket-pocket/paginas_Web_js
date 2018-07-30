@@ -1,0 +1,44 @@
+body {
+    margin: 0rem;
+    height: 9000px;
+}
+header{
+    text-align: center;
+    background-color: bisque;
+    color: blue;
+}
+
+.normal-header{
+    
+    padding: 2rem 0;
+    height: 30vh;
+}
+.sticky-header{    
+    background-color: rgb(214, 148, 68);
+    color: blue;
+    padding: 0.5rem;
+    text-align: center;
+    position: fixed;
+    height: 3rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+.bajo-header{
+    height: 16rem;
+}
+.btn-top {
+    position: fixed;
+    right: 4rem;
+    bottom: 4rem;
+    padding: 2rem;
+    opacity: 0.8;
+    background-color: darkgray
+}
+
+.hide {
+    display: none;
+}
+

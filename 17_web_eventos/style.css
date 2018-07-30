@@ -1,0 +1,13 @@
+body{
+   /*  background: tomato; */
+    height: 100vh;
+}
+section{
+    display: flex;
+}
+
+div{
+    width : 5rem;
+    background-color: brown;
+    margin-left: 1rem;
+}

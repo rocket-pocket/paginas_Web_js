@@ -38,7 +38,16 @@ class App {
     }
 
     subir(oE) {
-        document.scrollingElement.scrollTop = 0
+        //document.scrollingElement.scrollTop = 0
+        //location -> es el equivalente al hiperenlace
+        //location.assign()
+        //location.href = https://www.lawebdelprogramador.com/foros/HTML/24994-Hipervinculo-desde-un-boton.html
+        location.href = "#"
+        window.scroll({
+            top: 0,
+            left: 0,
+            behavior: 'smooth',
+        })
     }
 }
 

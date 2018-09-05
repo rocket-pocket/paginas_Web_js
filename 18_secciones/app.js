@@ -15,6 +15,9 @@ class App{
         /* 2º */
         document.addEventListener('scroll', this.scrollDetect.bind(this)) //detecta el scroll
 
+        window.addEventListener('resize', () =>{
+            this.calcularOffsets()
+         })/* escuchador para detectar la posicion en cada tamaño de pantalla */
 
         this.aNodosMenu.forEach(
             (nodosMenu) => {nodosMenu.addEventListener('click',
@@ -66,6 +69,7 @@ class App{
     }
     //hacer un foreach de cada section y coger el valor
     calcularOffsets(){
+        this.aOffset = [] /* creamos un array vacio para limpiar la consola */
         this.aNodosSection.forEach(
             (section) => {
                 //console.log(section.offsetTop) //con offsetTop sabemos la posición de cada section
